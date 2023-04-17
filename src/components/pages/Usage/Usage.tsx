@@ -13,7 +13,7 @@ const Usage = () => {
       {/* <img src="https://sparrxw.pythonanywhere.com/age-distribution" alt="age-distribution" /> */}
 
       <div className="article">
-        <h4>1. LOGOMost used stations</h4>
+        <h4>1. Most used stations</h4>
         <img src={image1} alt="usage-distribution" />
 
         <h4>The above chart implies</h4>
