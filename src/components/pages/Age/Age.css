@@ -1,0 +1,15 @@
+.content h3 {
+  margin-bottom: 1rem;
+}
+
+.article {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-direction: column;
+  margin-bottom: 5rem;
+}
+
+.article li {
+  list-style: armenian;
+}

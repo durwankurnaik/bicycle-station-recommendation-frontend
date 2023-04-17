@@ -1,0 +1,37 @@
+.main-content {
+  display: flex;
+  margin-top: 4rem;
+}
+
+.tab {
+  flex: 1;
+}
+
+.dashboard-content {
+  flex: 6;
+  background-color: rgb(247, 244, 244);
+}
+
+.tab {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  gap: 3rem;
+  padding: 2.4rem 0 2.4rem 2.4rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: teal;
+}
