@@ -1,7 +1,6 @@
 import "./DateTime.css";
 import "../pages.css";
 import Welcome from "../../Welcome/Welcome";
-import image from "../../../assets/plots/date-time-distribution.png";
 
 const DateTime = () => {
   return (
@@ -9,7 +8,10 @@ const DateTime = () => {
       <Welcome />
       <h3>Date Time Distribution of booked trips</h3>
       <div className="article">
-        <img src={image} alt="date-time-distribution" />
+        <img
+          src="https://sparrxw.pythonanywhere.com/date-time-distribution"
+          alt="date-time-distribution"
+        />
         <h4>These 4 charts has following data: </h4>
         <li>
           The first chart shows distribution of rides booked across the months

@@ -1,7 +1,6 @@
 import "./CustomerType.css";
 import "../pages.css";
 import Welcome from "../../Welcome/Welcome";
-import image from "../../../assets/plots/customer-type-distribution.png";
 
 const CustomerType = () => {
   return (
@@ -9,7 +8,10 @@ const CustomerType = () => {
       <Welcome />
       <h3>Customer type of our userbase</h3>
       <div className="article">
-        <img src={image} alt="customer-type-distribution" width={800} />
+        <img
+          src="https://sparrxw.pythonanywhere.com/customer-type-distribution"
+          alt="customer-type-distribution"
+        />
         <h4>The above chart implies</h4>
         <li>
           The Customer tab suggests that the users that book rides are one time

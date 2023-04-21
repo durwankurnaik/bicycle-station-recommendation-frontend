@@ -10,11 +10,8 @@ const WeatherImpact = () => {
     <div className="content page">
       <Welcome />
       <h3>Impact of Weather on bicycle usage</h3>
-
-      {/* <img src="https://sparrxw.pythonanywhere.com/age-distribution" alt="age-distribution" /> */}
-
       <div className="article">
-        <h4>1. Impact of type of day</h4>
+        <h4>1. Impact of type of day on average travel/day</h4>
         <img src={image1} alt="age-distribution" width={1200} />
         <h4>The above chart implies</h4>
         <li>The usage of bicycles on various types of days</li>

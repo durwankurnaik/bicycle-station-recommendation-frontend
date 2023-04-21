@@ -1,7 +1,6 @@
 import "./Age.css";
 import "../pages.css";
 import Welcome from "../../Welcome/Welcome";
-import image from "../../../assets/plots/age-distribution.png";
 
 const Age = () => {
   return (
@@ -9,10 +8,11 @@ const Age = () => {
       <Welcome />
       <h3>Age Distribution of Userbase</h3>
 
-      {/* <img src="https://sparrxw.pythonanywhere.com/age-distribution" alt="age-distribution" /> */}
-
       <div className="article">
-        <img src={image} alt="age-distribution" />
+        <img
+          src="https://sparrxw.pythonanywhere.com/age-distribution"
+          alt="age-distribution"
+        />
         <h4>The above chart implies</h4>
         <li>The most old customers are the ones that are born in 1939</li>
         <li>The youngest customers are born in the year 2000</li>

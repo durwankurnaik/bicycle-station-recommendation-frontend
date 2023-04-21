@@ -1,8 +1,6 @@
 import "./Usage.css";
 import "../pages.css";
 import Welcome from "../../Welcome/Welcome";
-import image1 from "../../../assets/plots/most-used-distribution.png";
-import image2 from "../../../assets/plots/least-used-distribution.png";
 
 const Usage = () => {
   return (
@@ -14,7 +12,10 @@ const Usage = () => {
 
       <div className="article">
         <h4>1. Most used stations</h4>
-        <img src={image1} alt="usage-distribution" />
+        <img
+          src="https://sparrxw.pythonanywhere.com/most-used-distribution"
+          alt="most-used-distribution"
+        />
 
         <h4>The above chart implies</h4>
         <li>
@@ -37,7 +38,10 @@ const Usage = () => {
         </li>
 
         <h4>2. Least used stations</h4>
-        <img src={image2} alt="usage-distribution" />
+        <img
+          src="https://sparrxw.pythonanywhere.com/least-used-distribution"
+          alt="least-used-distribution"
+        />
         <h4>The above chart implies</h4>
         <li>
           This chart makes its impression clear that these 10 stations needs to

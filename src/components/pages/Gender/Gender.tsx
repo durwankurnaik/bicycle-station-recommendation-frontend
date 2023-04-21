@@ -1,18 +1,17 @@
 import "./Gender.css";
 import "../pages.css";
 import Welcome from "../../Welcome/Welcome";
-import image from "../../../assets/plots/gender-distribution.png";
 
 const Gender = () => {
   return (
     <div className="content page">
       <Welcome />
       <h3>Gender Distribution of Userbase</h3>
-
-      {/* <img src="https://sparrxw.pythonanywhere.com/age-distribution" alt="age-distribution" /> */}
-
       <div className="article">
-        <img src={image} alt="gender-distribution" width={800} />
+        <img
+          src="https://sparrxw.pythonanywhere.com/gender-distribution"
+          alt="gender-distribution"
+        />
         <h4>The above chart implies</h4>
         <li>
           The stats clearly imply that the male users are far more in numbers
