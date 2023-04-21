@@ -11,6 +11,7 @@ const Gender = () => {
         <img
           src="https://sparrxw.pythonanywhere.com/gender-distribution"
           alt="gender-distribution"
+          width={800}
         />
         <h4>The above chart implies</h4>
         <li>

@@ -11,6 +11,7 @@ const CustomerType = () => {
         <img
           src="https://sparrxw.pythonanywhere.com/customer-type-distribution"
           alt="customer-type-distribution"
+          width={800}
         />
         <h4>The above chart implies</h4>
         <li>
