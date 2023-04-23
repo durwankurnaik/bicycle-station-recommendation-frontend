@@ -11,7 +11,7 @@ const Navbar = () => {
     <nav>
       <div className="logo">
         <img src={logo} alt="logo" />
-        LOGO
+        BSRS
       </div>
 
       <div className="header">
